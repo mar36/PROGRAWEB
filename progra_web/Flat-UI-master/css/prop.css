@@ -1,0 +1,27 @@
+.sp11
+{
+	width:890px;
+	margin-left:220px;
+}
+
+img
+{
+	position:absolute;	
+	left:200px;	
+	width:980px;
+}
+		
+table
+{
+	width:100%;
+}
+		
+th
+{
+	height:90px;
+}
+
+td
+{
+	height:40px;
+}

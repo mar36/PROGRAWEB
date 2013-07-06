@@ -1,0 +1,65 @@
+/* CSS Document */
+/* formulariode actividades  */
+#Layer1 {
+	position:absolute;
+	width:400px;
+	height:556px;
+	z-index:1;
+	left: 200px;
+	top: 36px;
+}
+#Layer2 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:2;
+	left: 669px;
+	top: 41px;
+}
+/* formulario de eventos*/
+#Layer4 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:2;
+	left: 671px;
+	top: 41px;
+}
+
+#Layer3{
+	position:absolute;
+	width:420px;
+	height:556px;
+	z-index:1;
+	left: 200px;
+	top: 36px;
+}
+
+/* formulario de eventos tipos_usuarios */
+
+#Layer7{
+	position:absolute;
+	width:650px;
+	height:800px;
+	z-index:1;
+	left: 10px;
+	top: 36px;
+}
+/* formulario de usuarios */
+#Layer8{
+	position:absolute;
+	width:450px;
+	height:556px;
+	z-index:1;
+	left: 200px;
+	top: 36px;
+}
+#Layer9 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:2;
+	left: 687px;
+	top: 38px;
+}
+

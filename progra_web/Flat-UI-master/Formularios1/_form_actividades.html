@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="../css/flat-ui.css" rel="stylesheet" />
+<link  href="../css/flat-ui.css" rel="stylesheet">
+<link href="../css/capas.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon"  href="../images/favicon.ico">
+<script src="../js/bootstrap-select.js"></script>
+<script src="../js/bootstrap-switch.js"></script>
+<script src="../js/flatui-checkbox.js"></script>
+<script src="../js/flatui-radio.js"></script>
+<script src="../js/jquery.tagsinput.js"></script>
+<script src="../js/jquery.placeholder.js"></script>
+<script src="../js/jquery.stacktable.js"></script>
+<title>FORMULARIO DE ACTIVIDADES</title>
+
+</head>
+
+<body class="palette palette-belize-hole" >
+<center>
+<div id="Layer1" class="span3" align="right">
+<form id="formulario_usuarios" class="palette palette-clouds" name="formulario_usuarios" method="post" action=""  >
+ <h3 class="demo-panel-title demo-headings">FORMULARIO DE ACTIVIDADES </h3>
+    <br>
+	
+	<label for="id_evento">Id del instructor</label>
+	<select name="id_evento" id="id_evento" >
+	  <option>1</option>
+	  <option>2</option>
+    </select>
+	<br><br>
+	
+	<label for="nombre_actividad">Nombre de la actividad</label>
+	<input id="nombre_actividad" type="text" name="nombre_actividad" value=""  placeholder="Nombre de la  actividad" 	     required> 
+	<br><br>
+	
+	<label for="lugares">Lugares</label>
+	<input type="number" name="lugares" id="lugares"  min="1" max="40" placeholder="Lugares"  require/>
+    <br><br>
+	
+	<label for="precio">PrecioS</label>
+	<input type="number" name="precio"  min="1" max="40" placeholder="Precio" require/>
+    <br><br> 
+	
+	<label for="descripcion">Descripcion</label>
+    <textarea id="descripcion" name="descripcion" cols="78" rows="5" placeholder="Descripcion" required></textarea>
+	<br><br>
+	
+	<label for="id_instructor">Id del instructor</label>
+	<select name="id_instructor" id="id_instructor" >
+	  <option>1</option>
+	  <option>2</option>
+	  </select>
+     <br><br>
+	 
+	<label for="enviar">Aceptar</label>
+	<input type="submit" name="enviar" value="Enviar" id="enviar">
+	
+</form>
+</div>
+  
+<div id="Layer2">
+   <a href="index.html" target="_parent"><img src="../images/icons/Clipboard@2x.png" border="0" /></a>
+</div>
+  
+</center>
+</body>
+</html>

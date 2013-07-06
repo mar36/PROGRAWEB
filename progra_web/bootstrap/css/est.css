@@ -1,0 +1,136 @@
+.front-welcome-text h1 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+.top_bar{
+background:black;
+z-index:100;
+position:fixed;
+top:0;
+height:40;
+width:100%;
+}
+.tw{
+background:black;
+ WIDTH:50;
+ HEIGHT:40;
+}
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1;
+}
+h6 {
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 1;
+	}
+	
+	h2 {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1;
+	}
+h1, h2, h3, h4, h5, h6 {
+    color: #333333;
+    margin: 0;
+    text-rendering: optimizelegibility;
+}
+
+p {
+    margin: 0;
+	color:white;
+}
+.front-welcome {
+    display: block;
+    height: 100px;
+    left: 100;
+    position: absolute;
+    top: 220;
+    width: 350px;
+	
+}
+
+.span12 {
+    display: block;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 600;
+    width: 1200px;
+	
+}
+
+
+li{
+display:inline;
+}
+
+.front-signin, .front-signup {
+    background: linear-gradient(#FFFFFF 0pt, #DDDDDD 100%) repeat scroll 0 0 transparent ;
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+	border-top: 1px solid #EEEEEE;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 4px 4px 4px 4px;
+}
+.front-signin {
+    height: 150px;
+    left: 630px;
+    position: absolute;
+    top: 100;
+    width: 300px;
+}
+.front-signup{
+    height: 200px;
+    left: 630px;
+    position: absolute;
+    top: 300;
+    width: 300px;
+}
+
+.front-signup .btn {
+    bottom: 10px;
+    height: 30px;
+    margin: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+    position: absolute;
+    right: 12px;
+}
+
+.signup-btn {
+    background-image: linear-gradient(#FEE94F 0pt, #FD9A0F 100%);
+    background-repeat: repeat-x;
+    border-color: #FFAA22;
+}
+.front-signin .submit {
+    box-shadow: 0 1px 0 #FFFFFF;
+    height: 30px;
+}
+
+.primary-btn{
+    background-image:linear-gradient(#33BCEF, #019AD2);
+    background-repeat: repeat-x;
+    border-color: #057ED0;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.dropdown-toggle,.color{
+color:#999;
+}
+
+#olv_cont{
+color:#999;
+font-size:12px;
+}
+
+.front-bg img {
+    min-height: 20%;
+    min-width: 100%;
+}
